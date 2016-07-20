@@ -1,0 +1,17 @@
+INSERT INTO `friends`.`users` (`id`, `first_name`, `last_name`, `created_at`, `updated_at`) VALUES ('1', 'Matt', 'Weideman', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`users` (`id`, `first_name`, `last_name`, `created_at`, `updated_at`) VALUES ('2', 'Nick', 'Bakemeier', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`users` (`id`, `first_name`, `last_name`, `created_at`, `updated_at`) VALUES ('3', 'Rob', 'Brundle', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`users` (`id`, `first_name`, `last_name`, `created_at`, `updated_at`) VALUES ('4', 'Ben', 'Hammerslag', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`users` (`id`, `first_name`, `last_name`, `created_at`, `updated_at`) VALUES ('5', 'Jeff', 'Kolbe', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`users` (`id`, `first_name`, `last_name`, `created_at`, `updated_at`) VALUES ('6', 'Matt', 'Baldwin', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`users` (`id`, `first_name`, `last_name`, `created_at`) VALUES ('7', 'Anna', 'Franko', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('1', '1', '7', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('2', '1', '6', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('3', '1', '5', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('4', '1', '4', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('5', '1', '3', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('6', '1', '2', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('7', '2', '3', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('8', '2', '5', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('9', '3', '2', '07/14/16 23:10:20', '07/14/16 23:10:20');
+INSERT INTO `friends`.`friendships` (`id`, `users_id`, `friend_id`, `created_at`, `updated_at`) VALUES ('10', '3', '5', '07/14/16 23:10:20', '07/14/16 23:10:20');
